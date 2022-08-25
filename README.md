@@ -200,11 +200,7 @@ standard deviation. The following two equations give the correlation
 coefficient (R) and the centred pattern root-mean-square difference (E)
 (Taylor, 2001).
 
-<img src="a448_media/media/image1.png"
-style="width:1.77986in;height:0.57639in" />
-
-<img src="a448_media/media/image2.png"
-style="width:2.11875in;height:0.59306in" />
+<img src="a448_media/media/image1.png"/>
 
 On a Taylor diagram, the spatial correlation between the reference
 dataset and the model dataset is given by the azimuthal position on the
