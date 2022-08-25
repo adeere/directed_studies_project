@@ -2,41 +2,6 @@
 
 Alison Deere
 
-> ATSC448 - Directed Studies
-
-**Table of Contents**
-
-Summary ……………………………………………………………………………………………………………. 3
-
-Motivation/Background ……………………………………………………………………………….………. 3
-
-Motivation ………………………………………………………………………………………………… 3
-
-Data Used …………………………………………………………………………………………………. 4
-
-Analysis Techniques ………………………………………………………………………………………….…. 6
-
-Data Format …………………..…………………………………………………………………….……. 6
-
-Qualitative Analysis ……………………………………………………………………………………. 6
-
-Estimating Natural Variability ………………………………………………………………….…. 6
-
-Taylor Diagrams ………………………………………………………………………..………………. 7
-
-Results ………………………………………………………………………………………………………….…… 8
-
-Historical Simulation …………………………………………………………………………………. 8
-
-Future Scenarios ………………………………………………………………………………………. 12
-
-HadGEM3-GC3.1-LL …………………………………………………………………..……………. 13
-
-Comparison …………………………………………………………………………………………..…. 15
-
-Conclusion ………………………………………………………………………………………………..….…… 19
-
-References ……………………………………………………………………………………………….……… 20
 
 **Summary**
 
@@ -235,10 +200,10 @@ standard deviation. The following two equations give the correlation
 coefficient (R) and the centred pattern root-mean-square difference (E)
 (Taylor, 2001).
 
-<img src="a448_media/media/image1.emf"
+<img src="a448_media/media/image1.png"
 style="width:1.77986in;height:0.57639in" />
 
-<img src="a448_media/media/image2.emf"
+<img src="a448_media/media/image2.png"
 style="width:2.11875in;height:0.59306in" />
 
 On a Taylor diagram, the spatial correlation between the reference
