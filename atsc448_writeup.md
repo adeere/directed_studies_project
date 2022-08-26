@@ -1,4 +1,4 @@
-# EXPLORING SEA-ICE THICKNESS WITHIN THE CCCMA CANESM5 MODEL 
+# Exploring Sea-ice Thickness Within the CCCMA CanESM5 Model
 
 ## Summary 
 
