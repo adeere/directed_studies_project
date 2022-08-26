@@ -1,44 +1,6 @@
-**EXPLORING SEA-ICE THICKNESS WITHIN THE CCCMA CANESM5 MODEL**
+# EXPLORING SEA-ICE THICKNESS WITHIN THE CCCMA CANESM5 MODEL 
 
-Alison Deere
-
-> ATSC448 - Directed Studies
-
-**Table of Contents**
-
-Summary ……………………………………………………………………………………………………………. 3
-
-Motivation/Background ……………………………………………………………………………….………. 3
-
-Motivation ………………………………………………………………………………………………… 3
-
-Data Used …………………………………………………………………………………………………. 4
-
-Analysis Techniques ………………………………………………………………………………………….…. 6
-
-Data Format …………………..…………………………………………………………………….……. 6
-
-Qualitative Analysis ……………………………………………………………………………………. 6
-
-Estimating Natural Variability ………………………………………………………………….…. 6
-
-Taylor Diagrams ………………………………………………………………………..………………. 7
-
-Results ………………………………………………………………………………………………………….…… 8
-
-Historical Simulation …………………………………………………………………………………. 8
-
-Future Scenarios ………………………………………………………………………………………. 12
-
-HadGEM3-GC3.1-LL …………………………………………………………………..……………. 13
-
-Comparison …………………………………………………………………………………………..…. 15
-
-Conclusion ………………………………………………………………………………………………..….…… 19
-
-References ……………………………………………………………………………………………….……… 20
-
-**Summary**
+## Summary 
 
 Sea-ice thickness in the arctic is decreasing. As climate change
 continues to progress, both surface and sea temperatures will continue
@@ -54,9 +16,9 @@ Overall, the two models predict dramatic decreases in sea-ice thickness
 both in the historic simulation and in future emissions scenarios, and
 significant differences were found between the two models.
 
-**Motivation/Background**
+## Motivation/Background
 
-**Motivation**
+### Motivation
 
 It is a common belief “that climate change will be felt first —and to a
 greater extent—at high latitudes versus temperate regions” (Pickart,
@@ -89,13 +51,13 @@ methods. The CanESM5 model will be compared with the Hadley Centre
 Global Environment Model (HadGEM) from the Met Office Hadley Centre in
 the United Kingdom, using statistical Taylor diagrams.
 
-**Data Used**
+### Data Used
 
 In this study, publicly available data was used from the sixth phase of
 the coupled model inter-comparison project, and focused on the CanESM5
 and HadGE34-GC3.1-LL models. These are described in more detail below.
 
-**CanESM5**
+#### CanESM5
 
 The Canadian Earth System Model version 5 is the current version of the
 Canadian Centre for Climate Analysis’ global model. There were many
@@ -129,7 +91,7 @@ off the pre-industrial configuration simulation. The 50-year interval
 was chosen to allow for differences in multi-decadal ocean variability
 between ensemble members (Swart et al., 2019).
 
-**HadGEM3-GC3.1-LL**
+#### HadGEM3-GC3.1-LL
 
 The Met Office Hadley Centre has three models in CMIP6. In this project,
 the focus will be on the HadGEM3-GC3.1-LL model and it will be used to
@@ -147,7 +109,7 @@ ensemble members were taken from a variety of points during the
 numerical integration of the pre-industrial configuration simulation run
 (Andrews et al., 2020).
 
-**Coupled Model Inter-comparison Projects**
+#### Coupled Model Inter-comparison Projects
 
 Coupled model inter-comparison projects are sets of model results that
 are released in the lead up to each intergovernmental panel on climate
@@ -176,9 +138,9 @@ RCP4.5 assumes that some climate policies are created that limit the
 extent of greenhouse gas emissions, and stabilizes radiative forcing at
 4.5 Wm<sup>-2</sup> (Thomson et al., 2011).
 
-**Analysis Techniques**
+## Analysis Techniques
 
-**Data Format**
+### Data Format
 
 The data used for this research project came from CMIP6, and is in the
 format of xarray datasets with dask arrays of sea ice thickness,
@@ -189,7 +151,7 @@ used. The historical sea-ice thickness simulations covered the period
 from 1850 – 2014, and the future emissions scenarios covered the period
 from 2015-2100.
 
-**Qualitative Analysis**
+### Qualitative Analysis
 
 This research project began with a qualitative analysis of the data
 within CanESM5. The analysis focused on the entire spatial extent for a
@@ -206,7 +168,7 @@ north pole. The polar plots show the extent from 60 degrees north to 90
 degrees north. The temporal variation of sea-ice thickness was examined
 by calculating yearly means of area weighted sea-ice thickness.
 
-**Estimating Natural Variability**
+### Estimating Natural Variability
 
 Given that the CanESM5 model has 40 ensemble members, we can use the
 variability between the models as an estimate of natural variability.
@@ -223,7 +185,7 @@ with grid cells with a sea-ice thickness greater than zero. Figure 5
 shows the spread of the variability between the models, calculated as
 the range of standard deviation.
 
-**Taylor Diagrams**
+### Taylor Diagrams
 
 To perform quantitative comparisons between the CanESM5 and
 HadGEM3-GC3.1-LL models, Taylor Diagrams were used. A Taylor diagram can
@@ -235,11 +197,8 @@ standard deviation. The following two equations give the correlation
 coefficient (R) and the centred pattern root-mean-square difference (E)
 (Taylor, 2001).
 
-<img src="a448_media/media/image1.emf"
-style="width:1.77986in;height:0.57639in" />
-
-<img src="a448_media/media/image2.emf"
-style="width:2.11875in;height:0.59306in" />
+<img src="a448_media/media/image1.png"
+style="width:3in" />
 
 On a Taylor diagram, the spatial correlation between the reference
 dataset and the model dataset is given by the azimuthal position on the
@@ -249,9 +208,9 @@ deviation is proportional to the radial distance from the origin. The
 Taylor diagrams for this project were created using the Skill Metrics
 python library (Rochford, 2021).
 
-**Results**
+## Results
 
-**Historical Simulation**
+### Historical Simulation
 
 The CMIP6 historical simulation ranges from 1850 to 2014. The following
 figure shows the CanESM5 model in its first time step (1850) on the
@@ -302,7 +261,7 @@ deviation between the different ensemble members.
 style="width:7.74146in;height:4.08577in" />
 
 <img src="a448_media/media/image7.png"
-style="width:7.719in;height:3.8595in" />
+style="width:6in" />
 
 Looking at ensemble member predictions can aid in separating long term
 climate effects from changes that are “inherent to the climate system”
@@ -320,7 +279,7 @@ approximately constant, around 0.14 m. After 1975, yearly mean of area
 weighted sea-ice thickness decreased dramatically. In the next section
 there is further analysis of the sea-ice thickness after 2014.
 
-**Future Scenarios**
+### Future Scenarios
 
 <img src="a448_media/media/image8.png"
 style="width:7.33396in;height:3.8754in" />CMIP6’s scenario model
@@ -337,7 +296,7 @@ red curve. If the SSP2-4.5 scenario becomes reality, then by 2100 the
 yearly mean of area weighted sea ice thickness would be around 0.05 m,
 and would be 0.02 m if the SSP5-8.5 scenario comes to fruition.
 
-**HadGEM3-GC3.1-LL**
+### HadGEM3-GC3.1-LL
 
 The Met Office Hadley Centre’s HadGEM3-GC3.1-LL model was chosen to
 compare to the CCCma’s CanESM5 sea-ice thickness model. Below are the
@@ -371,7 +330,7 @@ follows the same trend as the CanESM5 model. Sea-ice thickness is
 clearly decreasing, with the year of rapid descent being approximately
 1975. The two models will be compared in the next section.
 
-**Comparison**
+### Comparison
 
 <img src="a448_media/media/image12.png"
 style="width:7.21186in;height:4.05513in" />
@@ -457,7 +416,7 @@ could be due to the different atmosphere and ocean models that are used
 within the sea-ice thickness models. It could also be due to the
 different couplers that are used, or the different initial conditions.
 
-**Conclusion**
+## Conclusion
 
 Within both the historic simulations of CanESM5 and HadGEM3-GC3.1-LL
 sea-ice thickness begins to dramatically decrease around 1975. From
@@ -491,7 +450,7 @@ accurate. Replacing the reference ensemble member with a reference set
 of observations would change the Taylor diagrams from simply comparing
 two sea-ice thickness models, to determining which is more accurate.
 
-**References**
+## References
 
 Andrews, M. B., Ridley, J. K., Wood, R. A., Andrews, T., Blockley, E.
 W., Booth, B., Burke, E., Dittus, A. J., Florek, P., Gray, L. J.,
