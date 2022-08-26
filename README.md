@@ -1,7 +1,7 @@
 # Code Directory
 * All code is located in `/code`
 * Figures are located in `/figures`
-* Write up is located [here](https://github.com/adeere/sea_ice_thickness/blob/main/atsc448_writeup.md)
+* Write up is `atsc448_writeup.md` or [here](https://github.com/adeere/sea_ice_thickness/blob/main/atsc448_writeup.md)
 
 > **_NOTE:_**  The code was written for a project completed in May of 2021. It was hosted on a JupyterHub and currently a few files have errors, mostly due to updates or changes in dependencies.
 
