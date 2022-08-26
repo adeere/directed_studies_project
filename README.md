@@ -2,6 +2,8 @@
 * All code is located in `/code`
 * Figures are located in `/figures`
 
+**_NOTE:_**  The code was written for a project completed in May of 2021. It was hosted on a JupyterHub and currently a few files have errors, mostly due to updates or changes in dependencies.
+
 ## Polar Plots
 
 Polar plot code is in the following files: 
