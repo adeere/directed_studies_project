@@ -261,7 +261,7 @@ deviation between the different ensemble members.
 style="width:7.74146in;height:4.08577in" />
 
 <img src="a448_media/media/image7.png"
-style="width:6in" />
+style="width:7.64146in;height:3.98577in" />
 
 Looking at ensemble member predictions can aid in separating long term
 climate effects from changes that are “inherent to the climate system”
